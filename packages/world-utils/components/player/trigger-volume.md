@@ -1,7 +1,7 @@
 ---
 title: Trigger Volume
 layout: component
-nav_order: 240
+nav_order: 241
 parent: Player
 component_name: Player Trigger Volume
 since_version: 0.2.0
