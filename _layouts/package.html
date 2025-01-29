@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+{{ content }}
+
+{% if page.package_name %}
+    <hr />
+
+    <h2>Changelog</h2>
+    <ul>
+        {%- assign posts = site.posts | where_exp:"item", "item.tags contains page.package_name" -%}
+        {% for post in posts %}
+            <li>[{{ post.date | date_to_string }}] <a href="{{ post.url }}">{% if post.short_title %}{{ post.short_title }}{% else %}{{ post.title }}{% endif %}</a></li>
+        {% endfor %}
+    </ul>
+{% endif %}
