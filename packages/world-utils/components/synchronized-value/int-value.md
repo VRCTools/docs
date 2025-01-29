@@ -24,3 +24,11 @@ Provides a synchronized int value which may be used for changing material appear
 | Event Name    | Description                                   |
 |---------------|-----------------------------------------------|
 | STATE_UPDATED | Emitted when internal value has been changed. |
+
+## Functions
+
+| Function Name | Description                 |
+|---------------|-----------------------------|
+| Zero()        | Resets the value to zero    |
+| _Increment()  | Increments the state by one |
+| _Decrement()  | Decrements the state by one |

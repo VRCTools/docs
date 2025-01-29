@@ -22,3 +22,11 @@ material appearance.
 | Event Name    | Description                                   |
 |---------------|-----------------------------------------------|
 | STATE_UPDATED | Emitted when internal value has been changed. |
+
+## Functions
+
+| Function Name | Description                                                             |
+|---------------|-------------------------------------------------------------------------|
+| _SetTrue()    | Sets the current state to True                                          |
+| _SetFalse()   | Sets the current state to False                                         |
+| _Toggle()     | Inverts the current state (e.g. False becomes True, True becomes False) |

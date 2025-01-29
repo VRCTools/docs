@@ -26,3 +26,9 @@ Provides a synchronized float value which may be used for changing material appe
 | Event Name    | Description                                   |
 |---------------|-----------------------------------------------|
 | STATE_UPDATED | Emitted when internal value has been changed. |
+
+## Functions
+
+| Function Name | Description              |
+|---------------|--------------------------|
+| Zero()        | Resets the value to zero |
