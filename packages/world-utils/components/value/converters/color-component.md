@@ -4,7 +4,7 @@ nav_order: 251
 parent: Generic Converters
 layout: component
 component_name: Generic Color Component Converter
-since_version: 0.1.0
+since_version: 0.2.0
 ---
 
 Combines up to four float values into a single color.
