@@ -28,6 +28,6 @@ Provides a local int value which may be used for changing material appearances.
 
 | Function Name | Description                 |
 |---------------|-----------------------------|
-| Zero()        | Resets the value to zero    |
+| _Zero()       | Resets the value to zero    |
 | _Increment()  | Increments the state by one |
 | _Decrement()  | Decrements the state by one |

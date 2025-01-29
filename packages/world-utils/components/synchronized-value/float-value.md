@@ -31,4 +31,4 @@ Provides a synchronized float value which may be used for changing material appe
 
 | Function Name | Description              |
 |---------------|--------------------------|
-| Zero()        | Resets the value to zero |
+| _Zero()       | Resets the value to zero |
