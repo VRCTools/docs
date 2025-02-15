@@ -20,3 +20,9 @@ Provides a local URL value which may be used for loading images.
 | Event Name    | Description                                   |
 |---------------|-----------------------------------------------|
 | STATE_UPDATED | Emitted when internal value has been changed. |
+
+## Functions
+
+| Function Name | Description               |
+|---------------|---------------------------|
+| _Clear()      | Clears the state contents |
