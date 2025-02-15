@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<h1>
+    {% if page.component_name %}
+        {{ page.component_name }}
+    {% else %}
+        {{ page.title }}
+    {% endif %}
+    {% if page.since_version %}
+        <span class="label label-green">Since v{{ page.since_version }}</span>
+    {% endif %}
+    {% if page.networked %}
+        <span class="label label-yellow">Networked</span>
+    {% endif %}
+</h1>
+
+{{ content }}
