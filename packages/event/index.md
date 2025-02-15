@@ -1,8 +1,9 @@
 ---
 title: Event System
-layout: default
+layout: package
 nav_order: 200
 parent: Packages
+package_name: VRCTEvent
 ---
 
 # Event System

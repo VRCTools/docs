@@ -1,8 +1,9 @@
 ---
 title: World Utilities
-layout: default
+layout: package
 nav_order: 200
 parent: Packages
+package_name: VRCTWorldUtils
 ---
 
 # World Utilities
