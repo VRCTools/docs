@@ -30,4 +30,4 @@ Provides a local float value which may be used for changing material appearances
 
 | Function Name | Description              |
 |---------------|--------------------------|
-| Zero()        | Resets the value to zero |
+| _Zero()       | Resets the value to zero |
