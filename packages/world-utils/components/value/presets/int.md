@@ -11,12 +11,12 @@ Sets a given local or synchronized value to the given preset when `_Apply()` is 
 
 ## Parameters
 
-| Parameter Name          | Default Value | Description                                                       |
-|-------------------------|---------------|-------------------------------------------------------------------|
-| Use synchronized target | False         | Selects whether a local or synchronized Int should be written to. |
-| Local target            | None          | Int value to write to.                                            |
-| Synchronized target     | None          | Int value to write to.                                            |
-| Preset                  | 0             | Preset value.                                                     |
+| Parameter Name      | Default Value | Description                        |
+|---------------------|---------------|------------------------------------|
+| Target              | LOCAL         | Value to which to write the state. |
+| Local target        | None          | Int value to write to.             |
+| Synchronized target | None          | Int value to write to.             |
+| Preset              | 0             | Preset value.                      |
 
 ## Functions
 

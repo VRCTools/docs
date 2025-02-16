@@ -1,19 +1,21 @@
 ---
-title: String Label
-nav_order: 266
-parent: Synchronized UI
+title: URL Label
+nav_order: 270
+parent: Generic UI
 layout: component
-component_name: Synchronized String Label
+component_name: Value URL Label
 since_version: 0.1.0
 ---
 
-Displays the current value of a synchronized string.
+Displays the current value of a local URL.
 
 ## Parameters
 
 | Parameter Name     | Default Value | Description                                |
 |--------------------|---------------|--------------------------------------------|
-| Synchronized Value | None          | Value from which to pull the object state. |
+| Source             | LOCAL         | Value from which to pull the state.        |
+| Local Value        | None          | Value from which to pull the object state. |
+| Synchronized value | None          | Value from which to pull the object state. |
 
 ## Usage
 
@@ -21,6 +23,6 @@ Attach this component to an object which also contains a Text Mesh Pro UGUI comp
 text present within the Text Mesh component and will be formatted using [C#'s string.format][string-format] using only
 a single argument.
 
-For example, to display the value as-is, `{0}` may be used. To prefix the value you may also write `MOTD: {0}`.
+For example, to display the value as-is, `{0}` may be used. To prefix the value you may also write `URL: {0}`.
 
 [string-format]: https://learn.microsoft.com/en-us/dotnet/fundamentals/runtime-libraries/system-string-format

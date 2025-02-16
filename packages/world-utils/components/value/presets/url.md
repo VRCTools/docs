@@ -11,12 +11,12 @@ Sets a given local or synchronized value to the given preset when `_Apply()` is 
 
 ## Parameters
 
-| Parameter Name          | Default Value | Description                                                       |
-|-------------------------|---------------|-------------------------------------------------------------------|
-| Use synchronized target | False         | Selects whether a local or synchronized URL should be written to. |
-| Local target            | None          | URL value to write to.                                            |
-| Synchronized target     | None          | URL value to write to.                                            |
-| Preset                  | ""            | Preset value.                                                     |
+| Parameter Name      | Default Value | Description                        |
+|---------------------|---------------|------------------------------------|
+| Target              | LOCAL         | Value to which to write the state. |
+| Local target        | None          | URL value to write to.             |
+| Synchronized target | None          | URL value to write to.             |
+| Preset              | ""            | Preset value.                      |
 
 ## Functions
 
