@@ -13,7 +13,7 @@ Applies the state of a selection of local values to a given renderer (as a mater
 
 | Parameter Name     | Default Value | Description                                                              |
 |--------------------|---------------|--------------------------------------------------------------------------|
-| Use Property Block | False         | Use material property block (Instanced materials only)                   |
+| Target             | MATERIAL      | Select material, property block or global as target.                     |
 | Renderer           | None          | Renderer to apply properties to (only if Use Property Block is enabled)  |
 | Material           | None          | Material to apply properties to (only if Use Property Block is disabled) |
 | Boolean Properties |               | Mapping of boolean values to parameter names.                            |
